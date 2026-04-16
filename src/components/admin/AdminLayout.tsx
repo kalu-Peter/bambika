@@ -8,15 +8,17 @@ import {
   Bell,
   LogOut,
   ShieldCheck,
+  ShoppingBag,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { to: "/admin/dashboard", label: "Dashboard", icon: LayoutDashboard },
-  { to: "/admin/revenue", label: "Revenue", icon: TrendingUp },
-  { to: "/admin/out-of-stock", label: "Out of Stock", icon: PackageX },
-  { to: "/admin/add-product", label: "Add Product", icon: PlusSquare },
+  { to: "/admin/dashboard",     label: "Dashboard",     icon: LayoutDashboard },
+  { to: "/admin/orders",        label: "Orders",        icon: ShoppingBag },
+  { to: "/admin/revenue",       label: "Revenue",       icon: TrendingUp },
+  { to: "/admin/out-of-stock",  label: "Out of Stock",  icon: PackageX },
+  { to: "/admin/add-product",   label: "Add Product",   icon: PlusSquare },
   { to: "/admin/notifications", label: "Notifications", icon: Bell },
 ];
 
