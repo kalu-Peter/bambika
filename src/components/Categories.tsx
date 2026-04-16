@@ -13,10 +13,13 @@ const Categories = () => {
   return (
     <section className="py-20 px-6 max-w-7xl mx-auto">
       <div className="text-center mb-14">
-        <h2 className="font-heading text-3xl md:text-4xl font-semibold text-foreground mb-3">
+        <p className="text-xs tracking-[0.25em] uppercase text-amber-600 font-body font-medium mb-2">
+          Collections
+        </p>
+        <h2 className="font-heading text-3xl md:text-4xl font-semibold text-stone-900 mb-3">
           Shop by Category
         </h2>
-        <p className="text-muted-foreground font-body">
+        <p className="text-stone-500 font-body">
           Find your style across our curated collections
         </p>
       </div>
@@ -36,12 +39,14 @@ const Categories = () => {
               height={1024}
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-foreground/20 group-hover:bg-foreground/35 transition-colors duration-500" />
+            <div className="absolute inset-0 bg-stone-900/30 group-hover:bg-stone-900/50 transition-colors duration-500" />
+            {/* amber left-border accent on hover */}
+            <div className="absolute inset-y-0 left-0 w-1 bg-amber-500 scale-y-0 group-hover:scale-y-100 origin-bottom transition-transform duration-500" />
             <div className="absolute bottom-8 left-8">
-              <h3 className="font-heading text-2xl font-semibold text-primary-foreground mb-1">
+              <h3 className="font-heading text-2xl font-semibold text-stone-50 mb-1">
                 {cat.name}
               </h3>
-              <p className="text-sm text-primary-foreground/70 font-body">{cat.count}</p>
+              <p className="text-sm text-amber-400 font-body font-medium">{cat.count}</p>
             </div>
           </Link>
         ))}

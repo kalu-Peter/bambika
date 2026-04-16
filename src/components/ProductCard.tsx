@@ -53,10 +53,10 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <button
           aria-label="Add to bag"
           onClick={handleAddToBag}
-          className={`absolute bottom-0 left-0 right-0 backdrop-blur-sm text-xs font-semibold tracking-widest uppercase py-3 translate-y-full group-hover:translate-y-0 transition-all duration-300 flex items-center justify-center gap-2 ${
+          className={`absolute bottom-0 left-0 right-0 text-xs font-semibold tracking-widest uppercase py-3 translate-y-full group-hover:translate-y-0 transition-all duration-300 flex items-center justify-center gap-2 ${
             added
               ? "bg-green-600 text-white"
-              : "bg-foreground/90 text-background hover:bg-foreground"
+              : "bg-stone-900/90 text-stone-50 hover:bg-amber-500 hover:text-stone-900"
           }`}
         >
           {added ? (

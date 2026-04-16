@@ -8,16 +8,19 @@ const FeaturedProducts = () => {
     <section id="collection" className="py-20 px-6 max-w-7xl mx-auto">
       <div className="flex items-end justify-between mb-14">
         <div>
-          <h2 className="font-heading text-3xl md:text-4xl font-semibold text-foreground mb-3">
+          <p className="text-xs tracking-[0.25em] uppercase text-amber-600 font-body font-medium mb-2">
+            New Season
+          </p>
+          <h2 className="font-heading text-3xl md:text-4xl font-semibold text-stone-900 mb-3">
             Featured Picks
           </h2>
-          <p className="text-muted-foreground font-body">
+          <p className="text-stone-500 font-body">
             Handpicked essentials for the season
           </p>
         </div>
         <a
           href="#"
-          className="hidden md:inline-block text-sm font-medium tracking-wide text-foreground border-b border-foreground pb-0.5 hover:text-accent hover:border-accent transition-colors"
+          className="hidden md:inline-block text-sm font-medium tracking-wide text-stone-900 border-b-2 border-amber-500 pb-0.5 hover:text-amber-600 hover:border-amber-600 transition-colors"
         >
           View All
         </a>

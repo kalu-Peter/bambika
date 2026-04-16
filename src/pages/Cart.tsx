@@ -142,7 +142,7 @@ const Cart = () => {
                   </div>
                 </div>
 
-                <button className="mt-6 w-full bg-foreground text-background text-sm font-semibold tracking-widest uppercase py-3.5 rounded-lg hover:opacity-90 transition-opacity">
+                <button className="mt-6 w-full bg-amber-500 text-stone-900 text-sm font-semibold tracking-widest uppercase py-3.5 rounded-lg hover:bg-amber-400 transition-colors">
                   Checkout
                 </button>
 
