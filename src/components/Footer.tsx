@@ -4,9 +4,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
         <div>
           <h3 className="font-heading text-xl font-semibold text-stone-50 mb-1">Bambika Designs</h3>
-          <span className="inline-block w-8 h-0.5 bg-amber-500 mb-4" />
+          <span className="inline-block w-8 h-0.5 bg-amber-500 mb-3" />
+          <p className="text-sm text-amber-400 font-body italic mb-2">Kujibamba ni everyday</p>
           <p className="text-sm text-stone-400 font-body leading-relaxed">
-            Curating timeless fashion for the modern individual since 2020.
+            Your ultimate fashion plug 🔌 — clothing, shoes &amp; bags since 2020.
           </p>
         </div>
 
